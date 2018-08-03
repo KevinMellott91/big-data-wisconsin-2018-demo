@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="fraud-model-stream-impl,fraud-model-stream-api,fraud-model,fraud-model-api,fraud-model-impl" />
-  </component>
-</project>
