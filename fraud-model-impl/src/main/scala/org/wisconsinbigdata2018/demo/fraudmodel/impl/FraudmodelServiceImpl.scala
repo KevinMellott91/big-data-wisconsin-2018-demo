@@ -17,7 +17,7 @@ import scala.concurrent.Future
   * Implementation of the FraudmodelService.
   */
 class FraudmodelServiceImpl extends FraudmodelService {
-  val modelPath: String = "jar:file:/Users/e5543574/Downloads/fraud-model-json.zip"
+  val modelPath: String = "jar:file:/<home path>/Downloads/fraud-model-json.zip"
 
   override def analyze() = ServiceCall { (logRecord: LogRecord) =>
     println("*** PROCESSING REQUEST TO 'analyze' API ***")
